@@ -82,5 +82,5 @@ if __name__ == '__main__':
     example_y = [50 * i - 25 for i in example_x]
 
     model = SimpleLinearRegression()
-    model.train(example_x, example_y, 10_000, 0.00000001)
+    model.train(example_x, example_y, 10_000, 0.000001)
     print(model)
